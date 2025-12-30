@@ -1,0 +1,71 @@
+/* payment.css */
+
+/* Body and container */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* Payment box */
+.col-md-6.text-center {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.col-md-6.text-center:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+h3 {
+    color: #1a56db;
+    font-weight: 700;
+}
+
+/* Total amount text */
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #333333;
+}
+
+/* eSewa button */
+.btn-success {
+    background-color: #007b5e;
+    border: none;
+    font-size: 18px;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-success:hover {
+    background-color: #00a86b;
+    transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .col-md-6.text-center {
+        padding: 30px 20px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+    
+    .btn-success {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+}
