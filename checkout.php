@@ -35,7 +35,7 @@ if($sql)
 }
 else{
 echo "<script>alert('Something went wrong. Please try again.');</script>";
-    echo "<script type='text/javascript'> document.location ='checkout.php'; </script>";
+    echo "<script type='text/javascript'> document.location ='esewa.php'; </script>";
 }
 }
 //For Proceeding Payment
@@ -44,7 +44,7 @@ if(isset($_POST['proceedpayment'])){
  $gtotal=$_POST['grandtotal']; 
  $_SESSION['address']=$address;
  $_SESSION['gtotal']=$gtotal;
-   echo "<script type='text/javascript'> document.location ='payment.php'; </script>";   
+   echo "<script type='text/javascript'> document.location ='esewa.php'; </script>";   
 }
 ?>
 <!DOCTYPE html>
